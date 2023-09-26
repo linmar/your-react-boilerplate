@@ -10,11 +10,21 @@
         ".next/**"
       ]
     },
-    "lint": {},
+    "lint": {
+      "outputs": [
+        "dist/**",
+        "build/**"
+      ]
+    },
     "dev": {
       "cache": false
     },
-    "test": {}
+    "test": {
+      "outputs": [
+        "dist/**",
+        "build/**"
+      ]
+    }
   },
   "globalEnv": [
     "NEXT_PUBLIC_API_MOCKING"
